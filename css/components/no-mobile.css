@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: var(--pink);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
+
+#no-mobile span {
+  font-family: "Festive", cursive;
+  font-size: 35px;
+  font-weight: 900;
+}
